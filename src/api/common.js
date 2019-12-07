@@ -21,16 +21,21 @@ const fetchData = (url, setListData, updateLoading, defaultValue) => {
         } else {
             axios.get(url)
                 .then(response => {
+                    if(!response || response === undefined) {
+                        throw(response);
+                    }
                     setListData(response);
                     setDataInStorage(url, response);
                     updateLoading(false);
                 })
                 .catch(error => {
                     setListData(defaultValue);
+                    updateLoading(false);
                 });
         }
     } catch(err) {
         setListData(defaultValue);
+        updateLoading(false);
     }
 }
 

@@ -20,7 +20,7 @@ const CharacterChapterInfo = (props) => {
 
     return (
         <div>
-            <div>
+            <div className={styles["heading-text"]}>
                 <div>Episode List</div>
                 <hr style={{ border: "1px solid black"}}/>
             </div>

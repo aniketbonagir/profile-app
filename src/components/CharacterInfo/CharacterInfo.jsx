@@ -3,10 +3,11 @@ import ProfileInfo from "../ProfileInfo/ProfileInfo";
 import { profileInfoDetailsList } from "../../constants/common";
 import get from "lodash/get";
 import moment from "moment";
+import styles from "../CharacterChapterInfo/CharacterChapterInfo.module.css";
 
 const CharacterInfo = (props) => {
     return (<div>
-        <div>
+        <div className={styles["heading-text"]}>
             <div>Character Information</div>
             <hr />
         </div>

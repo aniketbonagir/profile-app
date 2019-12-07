@@ -1,7 +1,6 @@
 import React, { useState } from 'react'; 
 import Spinner from "../Spinner/Spinner";
 import styles from "./ProfileImage.module.css";
-// import get from "lodash/get";
 
 
 const ProfileImage = (props) => {
@@ -25,18 +24,6 @@ const ProfileImage = (props) => {
         />
         {loadingImage && <Spinner />}
     </div>);
-
-
-    // return (<div>
-    //     {loadingImage && <Spinner />}
-    //     {!loadingImage && <img 
-    //         className={styles["profile-image"]} 
-    //         onLoad={imageLoadSuccess}
-    //         onError={imageLoadError}
-    //         src={props.imageURL} 
-    //         alt={props.name || ""} 
-    //         />}
-    // </div>);
 
 }
 

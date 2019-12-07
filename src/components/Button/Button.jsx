@@ -9,7 +9,7 @@ const PageButton = (props) => {
 
     return (
         <div className={styles["ct"]}>
-            <button disabled={props.path === ""} onClick={clickHandler} type="button">{props.name}</button>
+            <button className={(props.path === "") ? styles["button-disabled"] : styles["base-button"]} disabled={props.path === ""} onClick={clickHandler} type="button">{props.name}</button>
         </div>
     );
 }

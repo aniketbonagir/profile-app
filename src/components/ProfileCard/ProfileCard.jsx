@@ -13,9 +13,6 @@ const ProfileCard = (props) => {
             onClick={ProfileCardClickHandler.bind(this, props.data, props.showModalHandler, props.updateInfoHandler)}
         >
             <ProfileImage name={get(props, "data.name") || ""} imageURL={get(props, "data.image") || ""} />
-            {/* <div>
-                <img className={styles["profile-image"]} src={get(props, "data.image") || ""} alt={get(props, "data.name") || ""} />
-            </div> */}
             <div className={styles["profile-info-ct"]}>
                 {infoCardGenrator(get(props, "data"))}
             </div>

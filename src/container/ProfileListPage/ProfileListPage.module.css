@@ -1,10 +1,21 @@
 .ct-list {
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .ct-header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.total-label {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.total-page-count {
+    font-weight: bold;
 }

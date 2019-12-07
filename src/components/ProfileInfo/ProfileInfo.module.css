@@ -5,6 +5,7 @@
 
 .label {
     flex: 2;
+    font-weight: bold;
 }
 
 .value {

@@ -3,6 +3,7 @@ import { fetchCharLocation } from "../../api/common";
 import ProfileInfo from "../ProfileInfo/ProfileInfo";
 import { profileLocationInfo } from "../../constants/common";
 import get from "lodash/get";
+import styles from "../CharacterChapterInfo/CharacterChapterInfo.module.css";
 import Spinner from "../Spinner/Spinner";
 
 const CharLocation = (props) => {
@@ -16,7 +17,7 @@ const CharLocation = (props) => {
 
     return (<div>
         {!loadingCharInfo && <div>
-            <div>
+            <div className={styles["heading-text"]}>
                 <div>Location Information</div>
                 <hr />
             </div>

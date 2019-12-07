@@ -1,7 +1,17 @@
 .ct {
-    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: baseline;
 }
 
+.ct-input {
+    margin-right: 10px;
+}
+
+.ct-button {
+    margin: 4px;
+}
 .base-button {
     border-radius: 2px;
     display: inline-block;
@@ -29,37 +39,5 @@
         border: 1px solid #212B31;
         color: #FFFFFF;
         transition: all 0.2s ease;
-    }
-}
-
-.button-disabled {
-    border-radius: 2px;
-    display: inline-block;
-    margin: 5px;
-    padding: 0;
-    min-width: 88px;
-    color: #FFFFFF;
-    border: none;
-    height: 26px;
-    transition: all 0.5s ease;
-    color: #AFBEC6;
-    background-color: #F7F8F9;
-    border: 1px solid #DFE5E8;
-    cursor: default;
-
-    &:hover {
-        color: #AFBEC6;
-        background-color: #F7F8F9;
-        border: 1px solid #DFE5E8;
-    }
-
-    &:active {
-        color: #AFBEC6;
-        background-color: #F7F8F9;
-        border: 1px solid #DFE5E8;
-    }
-
-    & .icon {
-        cursor: default;
     }
 }
