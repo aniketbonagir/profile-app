@@ -1,0 +1,13 @@
+.char-info-loc-ct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.char-info-loc-ct > div {
+    flex: 2;
+    margin: 1%;
+}
+
+.episode-ct {
+    margin: 1%;
+}

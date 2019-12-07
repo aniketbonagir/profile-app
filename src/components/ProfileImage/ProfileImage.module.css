@@ -1,0 +1,11 @@
+.profile-image {
+    width: 240px;
+    height: 200px;
+    border-radius: 20%;
+    padding: 5px;
+    display: block;
+}
+
+.image-loading {
+    display: none;
+}

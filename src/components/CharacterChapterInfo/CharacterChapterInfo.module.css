@@ -1,0 +1,12 @@
+.epinfo-ct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    flex: 1;
+}
+
+.value {
+    flex: 4;
+}

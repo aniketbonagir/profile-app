@@ -1,0 +1,12 @@
+.ct {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.label {
+    flex: 2;
+}
+
+.value {
+    flex: 3;
+}
