@@ -10,6 +10,9 @@
 
 .value {
     flex: 4;
+    color: tomato;
+    font-weight: 600;
+    font-family: cursive;
 }
 
 .heading-text {
