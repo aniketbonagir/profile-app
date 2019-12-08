@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Steps to Setup the app
+1. install the node modules by going to the repo folder by running below command
+### npm install
+2. Start the APP
+### npm start or yarn start
+
 ## Details Of the APP
 On starting the app the page loads the list for character profiles. Max character shown are 20 character per page.<br/>
 To View a particular Character Details click on any card, it will show <br/>
