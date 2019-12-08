@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Steps to Setup the app
 1. install the node modules by going to the repo folder by running below command
 ### npm install
-2. Start the APP
+2. Start the APP. Make sure you have active internet connection before starting the app
 ### npm start or yarn start
 
 ## Details Of the APP
