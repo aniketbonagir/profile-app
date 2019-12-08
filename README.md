@@ -3,9 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Details Of the APP
 On starting the app the page loads the list for character profiles. Max character shown are 20 character per page.<br/>
 To View a particular Character Details click on any card, it will show <br/>
-● Character information (name, species, origin etc). 
-● Location information (name, dimension, amount of residents, etc).
-● Names of the Episodes / Chapters List the character is featured on.
+● Character information (name, species, origin etc). <br/>
+● Location information (name, dimension, amount of residents, etc).<br/>
+● Names of the Episodes / Chapters List the character is featured on.<br/>
 
 ## Available Scripts
 
