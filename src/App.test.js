@@ -5,7 +5,7 @@ import App from './App';
 describe("renders Page", () => {
   let mountedComponent;
   beforeEach(() => {
-    mountedComponent = shallow( <App /> );
+    mountedComponent = shallow(<App />);
   });
   test("Should Render Successfully", () => {
     expect(mountedComponent.exists()).toBe(true);

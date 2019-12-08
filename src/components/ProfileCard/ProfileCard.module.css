@@ -9,6 +9,7 @@
     width: 280px;
     text-align: center;
     margin: 5px;
+    box-shadow: 2px 3px 5px 2px #CDB;
 }
 
 .profile-info-ct {

@@ -12,7 +12,7 @@ import Spinner from "../../components/Spinner/Spinner";
 import JumpToPage from "../../components/JumpToPage/JumpToPage";
 
 
-const ProfileListPage = (props) => {
+const ProfileListPage = () => {
     const [listData, updateListData] = useState({});
     const [loading, updateLoading] = useState(true);
     const [page, setPage] = useState(1);
@@ -43,8 +43,11 @@ const ProfileListPage = (props) => {
                 <PageButton handler={updateListApiUrl} path={(get(listData, "data.info") && get(listData, "data.info.prev")) || ""} name="Previous"/>
                 <PageButton handler={updateListApiUrl} path={(get(listData, "data.info") && get(listData, "data.info.next")) || ""} name="Next" />
                 <JumpToPage page={page} onPageChage={onPageCountChange} updatePage={onJumpClick} />
-                <div>
-                    <span className={styles["total-label"]}>Total Profiles</span> - <span className={styles["total-page-count"]}>{(get(listData, "data.info") && get(listData, "data.info.count")) || ""}</span>
+                <div className={styles["total-count"]}>
+                    <span className={styles["total-label"]}>Total Profiles</span> - <span className={styles["total-count-val"]}>{(get(listData, "data.info") && get(listData, "data.info.count")) || 0}</span>
+                </div>
+                <div className={styles["total-count"]}>
+                    <span className={styles["total-label"]}>Total Pages</span> - <span className={styles["total-count-val"]}>{(get(listData, "data.info") && get(listData, "data.info.pages")) || ""}</span>
                 </div>
             </div>
             <div className={styles["ct-list"]}>

@@ -15,6 +15,7 @@
     background-color: #607D8D;
     border: 1px solid #364750;
     color: #FFFFFF;
+    box-shadow: 2px 3px 5px 2px #CDB;
 
     &:hover {
         background-color: #56707E;
@@ -35,6 +36,7 @@
 .button-disabled {
     border-radius: 2px;
     display: inline-block;
+    box-shadow: 2px 3px 5px 2px #CDB;
     margin: 5px;
     padding: 0;
     min-width: 88px;

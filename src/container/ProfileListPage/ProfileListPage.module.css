@@ -16,6 +16,11 @@
     font-size: medium;
 }
 
-.total-page-count {
+.total-count-val {
     font-weight: bold;
+    color: blueviolet;
+}
+
+.total-count {
+    margin-left: 25px;
 }

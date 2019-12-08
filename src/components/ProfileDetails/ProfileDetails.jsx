@@ -1,4 +1,4 @@
-import React, {memo} from 'react';
+import React from 'react';
 import Modal from "../Modal/Modal";
 import CharacterInfo from "../CharacterInfo/CharacterInfo";
 import styles from "./ProfileDetails.module.css";
@@ -31,4 +31,4 @@ const getEpisodeIds = (episodeListURls = []) => {
     })
 }
 
-export default memo(ProfileDetails);
+export default ProfileDetails;
